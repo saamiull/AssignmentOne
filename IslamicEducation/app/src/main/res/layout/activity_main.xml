@@ -22,15 +22,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageBottom"
-        android:layout_width="396dp"
-        android:layout_height="194dp"
-        android:scaleType="fitXY"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/image_bottom" />
+
 
     <Button
         android:id="@+id/button"
@@ -38,7 +30,7 @@
         app:icon="@drawable/speaker"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="85dp"
         android:text="کلمے"
         android:fontFamily="@font/myarabic"
         android:textSize="25dp"
