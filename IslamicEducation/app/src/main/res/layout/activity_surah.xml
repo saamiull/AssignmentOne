@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#87CEFA"
+    android:background="#90EE90"
     tools:context=".ActivitySurah">
 
     <TextView
@@ -17,7 +17,7 @@
         android:textColor="#efe7e2"
         android:textSize="35dp"
         android:gravity="center_horizontal"
-        android:background="#FFE43872"
+        android:background="#2E8B57"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

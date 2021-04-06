@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#87CEFA"
+    android:background="#90EE90"
     tools:context=".ActivityKalma">
 
     <TextView
@@ -18,7 +18,7 @@
         android:gravity="center"
         android:textStyle="bold"
         android:textColor="#efe7e2"
-        android:background="#FFE43872"
+        android:background="#2E8B57"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -28,7 +28,7 @@
         style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="32dp"
         android:background="@drawable/rounded_button"
         android:gravity="center"
         android:text="پہلا  کلمہ"
