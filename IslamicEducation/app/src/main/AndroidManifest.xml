@@ -9,7 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.IslamicEducation">
-        <activity android:name=".SixthKalma"></activity>
+        <activity android:name=".ActivityDarrod"></activity>
+        <activity android:name=".ActivityLeaveMosque" />
+        <activity android:name=".ActivityEnterMosque" />
+        <activity android:name=".ActivityAfterMeal" />
+        <activity android:name=".ActivityMidMeal" />
+        <activity android:name=".ActivityBeforeMeal" />
+        <activity android:name=".ActivitySafarDua" />
+        <activity android:name=".SixthKalma" />
         <activity android:name=".FifthKalma" />
         <activity android:name=".FourthKalma" />
         <activity android:name=".ThirdKalma" />
