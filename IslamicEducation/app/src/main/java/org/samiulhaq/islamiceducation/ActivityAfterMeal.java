@@ -18,7 +18,7 @@ public class ActivityAfterMeal extends AppCompatActivity {
         ImageView imageView= findViewById(R.id.imageView4);
         imageView.animate().rotation(720).setDuration(1000);
 
-        mp = MediaPlayer.create(this,R.raw.aftar);
+        mp = MediaPlayer.create(this,R.raw.after);
         mp.start();
     }
     public void play(View view) {

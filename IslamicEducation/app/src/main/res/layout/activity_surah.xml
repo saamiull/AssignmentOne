@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#90EE90"
+    android:background="#FFFFCC"
     tools:context=".ActivitySurah">
 
     <TextView
@@ -17,7 +17,7 @@
         android:textColor="@color/black"
         android:textSize="35dp"
         android:gravity="center_horizontal"
-        android:background="#2E8B57"
+        android:background="#BDB76B"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,17 +36,18 @@
 
     <Button
         android:id="@+id/btnHome"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:text="Home"
-        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="32dp"
         android:background="@drawable/rounded_button"
-        app:icon="@drawable/home"
-        android:textSize="20dp"
         android:fontFamily="sans-serif-condensed-medium"
-        android:textColor="@color/black"
         android:onClick="backHome"
+        android:text="Home"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:icon="@drawable/home"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

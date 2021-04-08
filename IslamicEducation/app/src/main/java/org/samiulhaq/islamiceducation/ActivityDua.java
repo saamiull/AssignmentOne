@@ -27,7 +27,7 @@ public class ActivityDua extends AppCompatActivity {
         duaArrayList.add("مسجد سے باہر آنے کی دعا");
         duaArrayList.add("درود ابراہیمی");
 
-        ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, duaArrayList);
+        ArrayAdapter adapter = new ArrayAdapter(this, R.layout.row, duaArrayList);
         listView.setAdapter(adapter);
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {

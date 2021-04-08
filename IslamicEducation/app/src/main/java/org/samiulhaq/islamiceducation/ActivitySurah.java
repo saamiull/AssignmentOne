@@ -26,7 +26,7 @@ public class ActivitySurah extends AppCompatActivity {
         duaArrayList.add("سورہ النصر");
         duaArrayList.add("سورہ العصر");
 
-        ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, duaArrayList);
+        ArrayAdapter adapter = new ArrayAdapter(this, R.layout.row, duaArrayList);
         gridView.setAdapter(adapter);
 
         gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
